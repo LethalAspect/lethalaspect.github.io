@@ -142,7 +142,7 @@ async function setActivityName() {
     } = await fetchResponse(USERID);
     const mostRecent = activities.filter(m => m.type !== 4).shift();
     if (!mostRecent?.name) {
-        name.innerHTML = 'doing yo moma';
+        name.innerHTML = 'looking for who asked';
         return;
     }
     name.style.display = 'block';
