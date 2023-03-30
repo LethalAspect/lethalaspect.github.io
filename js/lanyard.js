@@ -61,7 +61,7 @@ async function setAvatarFrame() {
         statusDot.style.background =
             '#747e8c';
         statusDot.title = 'Offline';
-        status2.innerHTML = "offline <br> might be in eternal sleep";
+        status2.innerHTML = "offline <br> might be away or asleep";
         status2.style.cssText = 'color: unset; opacity: 0.5;';
         break;
     }
